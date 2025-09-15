@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homescreen 
-  <img src="readme-images/NasaHomePage.png/" width="375px" alt="nasa homescreen">
+  <img src="readme-images/NasaHomePage.png/" width="375px" alt="screenshot nasa homescreen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Universe  
+  <img src="readme-images/NasaUniversePage.png" width="375px" alt="screenshot nasa universe page">
  
 </details>
 
@@ -57,6 +57,50 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+Content
+
+Het is hier en daar nodig om lastige tekst en woorden te gebruiken om de content te duiden die word weergegeven op de website. Dit zit hem in de wetenschappelijke aard van de pagina. Verder vind ik het niet echt toegankelijk dat er images gebruikt worden als link. Voor de images is wel een alternatieve link beschikbaar maar het had extra toegankelijk geweest.
+
+Global code
+
+Ik heb via [validator W3c](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.nasa.gov%2F) de website van NASA gevalideerd en hieruit bleek dat er 318 error’s stonden in de HTML en CSS van de website. Verder had ik zelf niet veel aan te merken op de Global code.
+
+Keyboard
+
+Geen notes
+
+Mobile & Touch
+
+Geen notes
+
+Headings
+
+De Headings op de NASA website kloppen niet helemaal. Zo kon in nergens een H1 vonden (vermoedelijk de IMG van het logo). Verder kwam ik enkel H2 elementen tegen en geen H1 of H2.
+
+Lists
+
+Geen notes
+
+Images
+
+Op het gebied van de Images is de website van NASA ook niet compatibel met de W3c standaard. Zo heb ik gezien dat de Alt omschrijving vaak wel aanwezig is maar geen duidelijke omschrijving geeft van de content. Bijvoorbeeld, er stond een afbeelding van een berg met daarbij de Alt text: Tips for star viewing from NASA. Verder stond er geen text in images. Alleen worder er wel veel images als linkjes gebruikt.
+
+Media (Video & Audio)
+
+Ik heb niet veel video’s of audio elementen gevonden op de website van NASA maar waar ze wel gebruikt werden stonden de animaties vaak wel op autoplay. Wanneer dit gebeurde konden deze wel gepauzeerd worden. 
+
+Controls
+
+Op het gebied van controls was ik wel vrij tevreden over de toegankelijkheid. Alleen de IMG’s als links die ik al eerder aanhield zijn niet top.
+
+Appearance
+
+De website van NASA bied geen light & Dark mode of high-contrast mode aan. De 200% increase zoom ziet er wel goed uit.
+
+Animations
+
+De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
 
 </details>
 
@@ -88,8 +132,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - ik heb in de footer de HTML opgeschoond en zodat ik deze beter kan aanspreken in CSS. Voorheen had ik gebruik gemaakt van articles, ul en li. Nu heb ik het alsnog gedaan met ul en li items maar deze zijn nu als child van de section gestructureerd.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
