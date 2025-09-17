@@ -137,12 +137,10 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+student 1 (Ik zelf)
+- kijken naar de vormgeving van mijn header en footer.
+- een gradient toevoegen op mijn images waardoor de tekst beter te lezen is.
+- een responsive carousel maken
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
