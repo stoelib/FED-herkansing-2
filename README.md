@@ -142,6 +142,14 @@ student 1 (Ik zelf)
 - een gradient toevoegen op mijn images waardoor de tekst beter te lezen is.
 - een responsive carousel maken
 
+Student 2 (Julia van Walderveen)
+- youtube filmpje
+- moet mijn hele footer uitgewerkt
+
+Student 3 (Melissa Aksoy)
+- checken of mijn HTML juist is en wat ik kan verbeteren. als er tijd is, kijkje naar hoe ik css zou moeten uitwerken
+
+
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
