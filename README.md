@@ -178,26 +178,29 @@ Dit om de leesbaarheid van de code beter te maken en zo is het niet gewoon een b
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - joost | - Ik wil graag kijken hoe ik mijn nav kan vormgeven als een responsive raster
+            - Daarnaast wil ik nog ff kijken naar mijn grid en hoe ik daarin dingen kan gaan plaatsen
 
+  - Aya | - hier wil ik het straks over hebben Of het toegestaan is om 2 images binnen 1 artickel te hebben, waarvan 1 als achtergrond img.2 images op de echte website met de juiste kleur downloaden en hoe ik de contrast van socialmedia iconen met css kan laten veranderen
+          - wil de rest dat hier nog ff kort vertellen zodat iedereen het in zijn/haar readme kan verwerken 
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Patoune | - X
+  - Aya | - Of het toegestaan is om 2 images binnen 1 article te hebben, waarvan 1 als achtergrond img.
+            - 2 images op de echte website met de juiste kleur downloaden.
+            - Hoe ik de contrast van socialmedia iconen met css kan laten veranderen.
+  - Joost | - Hoe ik mijn nav kan vormgeven als een responsive raster.
+            - Kijken naar mijn grid en hoe ik daarin dingen kan gaan plaatsen
+  - Kyra | - Afbeeldingen positioneren op mijn home page en hoe ik dat in een grid kan doen.
+            - Hoe ik de animatie het best kan maken.
 
 </details>
 
@@ -213,11 +216,57 @@ Dit om de leesbaarheid van de code beter te maken en zo is het niet gewoon een b
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+Content
+
+Ik heb op sommige plekken de texten aangepast om beter aante sluiten bij een brederen doelgroep. Toch is het vaak ook nodig om de wetenschappelijke namen te laten staan. Voor de rest was de content op de website al goed en heb ik hier niet veel aan hoeven te veranderen.
+
+Global code
+
+Ik heb via de W3C extentie in VS code mijn HTML laten vaildaten en deze waren gef geen error's. Op dit punt heb ik de website van NASA verbeterd.
+
+Keyboard
+
+Op mijn pagina is alles te bedien met de TAB. Dit is ook het geval op de pagina van NASA.
+
+Mobile & Touch
+
+Op de Universe pagina van NASA is een groot stuk horiziontal scrolling zichtbaar bij de kleinste breete. Dit heb ik op mijn pagina verbeterd.
+
+Headings
+
+Op de pagina van NASA werd geen H1 element gebruikt. Ik heb deze wel. Hij is alleen niet zichtbaar op de pagina zelf. verder heb ik ook gebruik gemaakt van H2 en H3 elementen. Deze heeft NASA ook niet concistent gebruikt.
+
+Lists
+
+Geen notes
+
+Images
+
+Op heb gebied van Images heb ik de pagina van de NASA een helehoop kunnen verbeteren. Zo heeft mijn pagina bij alle images een duidelijke ALT text die aansluit bij de afbeelding. Helaas had ik geen images die als text werden gebruikt. Dit heb ik dus niet kunnen verbeteren.
+
+Media (Video & Audio)
+
+Helaas is het mij niet gelukt om mijn video te pauzeren. 
+
+Controls
+
+Bij mij zijn alle Images die linkjes zijn ook met de tab functie te berijken. Op de pagina van NASA was die niet altijd het geval.
+
+Appearance
+
+Ik heb een Light/ dark mode toegevoegd aan mijn pagina. Deze neemt de voorkeur van de gebruiker over. De website van NASA heeft dit niet.
+
+Animations
+
+De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
+
+<img src="readme-images/WCAG.png" width="375px" alt="WCAG checklist page 1">
+<img src="readme-images/WCAG1.png" width="375px" alt="WCAG checklist page 2">
+<img src="readme-images/WCAG2.png" width="375px" alt="WCAG checklist page 3">
+<img src="readme-images/WCAG3.png" width="375px" alt="WCAG checklist page 4">
+<img src="readme-images/WCAG4.png" width="375px" alt="WCAG checklist page 5">
+
 </details>
-
-
-
-
 
 ## Voortgang 3 (week 4)
 
