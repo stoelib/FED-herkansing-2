@@ -152,11 +152,17 @@ Student 3 (Melissa Aksoy)
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+1. Eerst hebben we gechecked of mijn HTML semantisch klopte. Op de meeste plekken klopte dit best wel goed. Ik kreeg alleen als feedback dat het slimmer is om alle Li's op een apparte regel moest schrijven zoals hieronder:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+        <nav>            
+                    <ul>
+                        <li>
+                            <a>Explore</a>
+                        </li>
+
+Dit om de leesbaarheid van de code beter te maken en zo is het niet gewoon een blok code zonder logica.
+
+2. Verder had ik een aantal vragen over de styling van mijn Header & Footer. Helaas zijn we hier niet meer aan toe gekomen omdat we vooral op HTLM gefocussed waren. Dus deze vragen heb ik even geparkeerd voor de volgende les en voortgangsgesprek.
 
 </details>
 
@@ -165,6 +171,8 @@ Student 3 (Melissa Aksoy)
 
 
 ## Voortgang 2 (week 3)
+
+
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
