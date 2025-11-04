@@ -76,8 +76,8 @@ main section:nth-of-type(1) h2{
 /*Explore*/
 
 section:nth-of-type(2){
-    padding: 1em;
-    background-color: rgb(27, 27, 27);
+    padding: 2em 1em 2em 1em;
+    background-color: var(--color-background-) ;
 }
 
 
@@ -85,26 +85,30 @@ section:nth-of-type(2) h2{
     font-size: 0.7em;
     font-weight: 500;
     letter-spacing: 3.5px;
-    color: var(--color-text-wit);
-    background-color: rgb(27, 27, 27);
-    margin: 0;
+    color: var(--color-text-zwart);
+}
+
+@media (width > 40em) {
+    main section:nth-of-type(2) h2 { 
+        font-size: em;
+    }
 }
 
 section:nth-of-type(2) h3{
-   color: rgb(185, 185, 187);
+   color: var(--color-text-zwart);
    font-weight: 600;
 }
 
 section:nth-of-type(2) p{
-    color: rgb(185, 185, 187);
-    font-size: 0,875;
+    color: var(--color-text-zwart);
+    font-size: 0.75em;
     
 }
 
 section:nth-of-type(2) ul{
     list-style: none;
     margin: 0;
-    padding: 2em;
+    padding-top: 1em;
 
     display: flex;
     overflow: auto;
@@ -114,6 +118,8 @@ section:nth-of-type(2) ul{
     scroll-behavior:smooth;
 	
 	scroll-snap-type:x mandatory;
+
+    gap: 1em;
 	
 	anchor-name: --carousel;
 
@@ -162,6 +168,10 @@ section:nth-of-type(2) ul::scroll-button(left) {
 	section:nth-of-type(2) li {
 		width:50%;
 	}
+
+    section:nth-of-type(2) p{
+        font-size: 1em;
+    }
 }
 
 @media (width > 60em) {
@@ -177,12 +187,13 @@ section:nth-of-type(2) ul::scroll-button(left) {
 
 
 section:nth-of-type(2) li img{
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     border-radius: 790px;
     position: relative;
     bottom: 0em;
     padding-right: 1em;
+
 }
 
 /*New Year*/
@@ -205,7 +216,7 @@ section:nth-of-type(3) h2{
 }
 
 section:nth-of-type(3) p{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 
@@ -224,7 +235,7 @@ main section:nth-of-type(3) a{
 }
 
 main section:nth-of-type(3) svg{
-	fill: var(--color-icons);
+	fill: white;
 	width: 1em;
 	height: 1em;
 }
@@ -254,7 +265,7 @@ main section:nth-of-type(3) Div:nth-of-type(1) p:nth-of-type(1){
 
 main section:nth-of-type(3) Div:nth-of-type(2) p{
     font-size: 0.75em,;
-    color: rgb(88, 88, 91);
+    color: var(--color-text-zwart);
     margin: 1em;
 }
 
@@ -272,7 +283,7 @@ main section:nth-of-type(3) Div:nth-of-type(2) p{
 /*Featured video*/
 
 main section:nth-of-type(4){
-    background-color: var(--color-text-zwart);
+    background-color: var(--color-background-);
     padding: 64px 24px;
     height: 37em;
 }
@@ -283,7 +294,7 @@ main section:nth-of-type(4) video{
 }
 
 main section:nth-of-type(4) h2{
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--color-text-wit);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -293,12 +304,12 @@ main section:nth-of-type(4) p:nth-of-type(1){
     font-size: 0.7em;
     font-weight: 500;
     letter-spacing: 3.5px;
-    color: rgb(209, 209, 209);
+    color: var(--color-text-wit);
 }
 
 main section:nth-of-type(4) p:nth-of-type(2){
     font-size: 0.9em;
-    color: rgb(209, 209, 209);
+    color: var(--color-text-zwart);
 }
 
 main section:nth-of-type(4) a{
@@ -311,7 +322,7 @@ main section:nth-of-type(4) a{
 }
 
 main section:nth-of-type(4) svg{
-	fill: var(--color-icons);
+	fill: white;
 	width: 1em;
 	height: 1em;
 }
@@ -347,6 +358,8 @@ main section:nth-of-type(5) a{
 	font-weight: 700;
 }
 
+
+
 main section:nth-of-type(5) svg{
 	fill: var(--color-icons);
 	width: 1em;
@@ -377,7 +390,7 @@ main section:nth-of-type(5) li{
 }
 
 main section:nth-of-type(5) svg{
-	fill: var(--color-icons);
+	fill: white;
 	position: absolute;
 }
 
@@ -401,7 +414,7 @@ main section:nth-of-type(5) li:nth-of-type(2)  img{
 main section:nth-of-type(5) li p:nth-of-type(1){
 	position: absolute;
 	top: 1.5em;
-	color: var(--color-text-wit);
+	color: white;
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 500;
@@ -411,7 +424,7 @@ main section:nth-of-type(5) li p:nth-of-type(1){
 main section:nth-of-type(5) li p:nth-of-type(2){	
     position: absolute;
 	bottom: 2em;
-	color: var(--color-text-wit);
+	color: white;
     font-size: 1.2em;
     font-weight: 700;
 }
@@ -419,7 +432,7 @@ main section:nth-of-type(5) li p:nth-of-type(2){
 main section:nth-of-type(5) li p:nth-of-type(3){
     position: absolute;
 	bottom: 2em;
-	color: var(--color-text-wit);
+	color: white;
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 500;
@@ -572,32 +585,35 @@ main section:nth-of-type(7){
 }
 
 main section:nth-of-type(7) svg{
-	fill: var(--color-icons);
+	fill: white;
 	width: 1em;
 	height: 1em;
 }
 
-main section:nth-of-type(7) circle {
+main circle {
 	fill: var(--color-icons-red);
 }
 
 main section:nth-of-type(7) p{
 	max-width: 90vw;
-	color: var(--color-text-wit);
+	color: white;
 	top: 4em;
 	font-family: "font basis bold";
+    text-shadow: 1px 1px 2px black;
 }
 
 main section:nth-of-type(7) a{
-	color: var(--color-text-wit);
+	color: white;
 	font-size: 1.4em;
 	text-decoration: none;
 	font-weight: 700;
+    text-shadow: 1px 1px 2px black;
 }
 
 main section:nth-of-type(7) h2{
-	color: var(--color-text-wit);
+	color: white;
 	font-size: 3em;
+    text-shadow: 1px 1px 2px black;
 }
 
 main section:nth-of-type(7) img{
@@ -609,7 +625,7 @@ main section:nth-of-type(7) img{
 
 main section:nth-of-type(7) div{
 	position: absolute;
-	top: 2em;
+	top: 18em;
 	left: 0;
 	right: 0;
 	display: flex;
@@ -636,10 +652,10 @@ main section:nth-of-type(7) a:hover svg{
 
 
 main section:nth-of-type(8){
-	padding-top: 48px;
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 48px;
+	padding-top: 3em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 3em;
 }
 
 main section:nth-of-type(8) img{
@@ -665,17 +681,25 @@ main section:nth-of-type(8) ul{
 main section:nth-of-type(8) li a{
 	position: absolute;
 	text-decoration: none;
-	color: var(--color-text-wit);
+	color: white;
 	left: 1em;
 	bottom: 1em;
 	font-size: 1.4;
 	font-weight: 700;
 	line-height: 21.1px;
+    font-family: dm-mono;
 }
 
 main section:nth-of-type(8) h2{
-	font-size: 3em;
+	font-size: 1.813rem;
 	color: var(--color-text-zwart);
+}
+
+@media (width > 40em) {
+
+    main section:nth-of-type(8) h2 { 
+        font-size: 3em;
+    }
 }
 
 main section:nth-of-type(8) p{
@@ -697,7 +721,7 @@ main section:nth-of-type(8) a{
 }
 
 main section:nth-of-type(8) svg{
-	fill: var(--color-icons);
+	fill: white;
 	width: 1em;
 	height: 1em;
 }

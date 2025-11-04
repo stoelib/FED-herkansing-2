@@ -10,19 +10,63 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+
+	color-scheme: light dark;
 	--color-text-zwart:#111;
 	--color-text-wit:white;
 
 	--color-background: rgb(0, 0, 0);
+	--color-background-: rgb(25, 25, 25);
 	--color-background-hoover: rgb(160,0,11);
 
-	--color-icons: white;
+	--color-icons: rgb(255, 255, 255);
 	--color-icons-red: red;
 	--font-h2: "font basis";
+
+	--hoover-text: #959599;
 
 
 	
 	font-family: 'inter', sans-serif;
+	
+}
+
+/*********************/
+/*    Light mode.    */
+/*********************/
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-text-zwart:#white;
+		--color-text-wit:#111;
+
+		--color-background: white;
+		--color-background-: rgb(249, 249, 249);
+		--color-background-hoover: rgb(160,0,11);
+
+		--color-icons: rgb(0, 0, 0);
+		--color-icons-red: red;
+
+		--hoover-text: rgb(0, 0, 0);
+	}
+}
+
+/*********************/
+/*    dark mode.     */
+/*********************/
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text-zwart:#fff;
+		--color-text-wit:#fff;
+
+		--color-background: rgb(0, 0, 0);
+		--color-background-hoover: rgb(160,0,11);
+
+		--color-icons: white;
+		--color-icons-red: red;
+		--hoover-text: rgb(255, 255, 255);
+	}
 }
 
 /****************/
@@ -45,7 +89,7 @@
 
 h2{
 	font-size: 2.2em;
-	color: var(--color-text-wit);
+	color: white;
 	margin-bottom: 0em;
 	max-width: 100%;
 }
@@ -74,6 +118,11 @@ body{
 	overflow-x: hidden;
 }
 
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
 /****************/
 /*    HEADER    */
 /****************/
@@ -97,12 +146,14 @@ header svg{
 	fill: var(--color-icons);
 }
 
-header svg:nth-of-type(1){
-	order: -1;
+header svg:nth-of-type(2){
+	position: absolute;
+	right: 1em;
 }
 
 Header nav a{
 	color: var(--color-text-wit);
+	text-decoration: none;
 }
 
 Header nav p{
@@ -118,9 +169,16 @@ header{
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 1em;
-	position:sticky;
 	z-index: 100000000000000;
 	gap: 1em;
+
+}
+
+header button {
+
+  order: -2;
+
+  translate:-50% 0%;
 }
 
 header section{
@@ -167,15 +225,13 @@ header nav:nth-of-type(2) ul{
 	}
 
 	header nav ul{
-		display: flex;
-		justify-content: space-between;
+		width: auto;
+		gap: 2em;
 	}
 
 	header nav {
 		display: block;
 	}
-
-
 }
 
 @media (width > 60em) {
@@ -230,6 +286,9 @@ footer a{
 	color: var(--color-text-wit);
 }
 
+footer ul{
+	list-style: none;
+}
 
 footer{
 	background-color: var(--color-background);
@@ -262,7 +321,7 @@ footer{
 }
 
 footer svg{
-	fill: var(--color-icons);
+	fill: white;
 	width: 1em;
 	height: 1em;
 }
@@ -304,7 +363,7 @@ footer nav:nth-of-type(1) li{
 }
 
 footer nav:nth-of-type(1) li a:hover{
-	border-bottom: 3px dotted white;
+	border-bottom: 3px dotted var(--hoover-text);
 }
 
 /* Socials */
@@ -390,15 +449,28 @@ footer section:nth-of-type(2){
 
 
 footer a:nth-of-type(2){
-	font-family: inter;
 	font-size: 1.2em;
 	font-weight:600 ;
 	text-decoration:none;
-	color: white;
+	color: var(--color-text-wit);
 }
 
-footer ul{
-	padding-left: 0;
+footer article{
+	grid-column: 1 / -1;
+}
+
+footer article ul{
+	display: flex;
+	flex-direction: column;
+	grid-column: 1 / -1;
+}
+
+@media (width > 40em) {
+		footer article ul{
+			gap: 2em;
+			display: flex;
+			flex-direction: row;
+	}
 }
 
 
@@ -406,4 +478,3 @@ footer ul{
 footer li:first-letter {
   text-transform: uppercase;
 }
-
