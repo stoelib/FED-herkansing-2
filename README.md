@@ -113,10 +113,11 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
 
   ### de hele pagina: 
   <img src="readme-images/Breakdown-schets.png" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown1-schets.png" width="375px" alt="Breakdown schets 2">
-  <img src="readme-images/Breakdown2-schets.png" width="375px" alt="Breakdown schets 3">
-  <img src="readme-images/Breakdown3-schets.png" width="375px" alt="Breakdown schets 4">
-  <img src="readme-images/Breakdown4-schets.png" width="375px" alt="Breakdown schets 5">
+  <img src="readme-images/Breakdown-schets1.png" width="375px" alt="Breakdown schets 2">
+  <img src="readme-images/Breakdown-schets2.png" width="375px" alt="Breakdown schets 3">
+  <img src="readme-images/Breakdown-schets3.png" width="375px" alt="Breakdown schets 4">
+  <img src="readme-images/Breakdown-schets4.png" width="375px" alt="Breakdown schets 5">
+
 
   ### dynamisch deel (bijv menu): 
   
@@ -264,11 +265,11 @@ Animations
 
 De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
 
-<img src="readme-images/WCAG.png" width="375px" alt="WCAG checklist page 1">
-<img src="readme-images/WCAG1.png" width="375px" alt="WCAG checklist page 2">
-<img src="readme-images/WCAG2.png" width="375px" alt="WCAG checklist page 3">
-<img src="readme-images/WCAG3.png" width="375px" alt="WCAG checklist page 4">
-<img src="readme-images/WCAG4.png" width="375px" alt="WCAG checklist page 5">
+<img src="readme-images/WCAG.jpg" width="375px" alt="WCAG checklist page 1">
+<img src="readme-images/WCAG1.jpg" width="375px" alt="WCAG checklist page 2">
+<img src="readme-images/WCAG2.jpg" width="375px" alt="WCAG checklist page 3">
+<img src="readme-images/WCAG3.jpg" width="375px" alt="WCAG checklist page 4">
+<img src="readme-images/WCAG4.jpg" width="375px" alt="WCAG checklist page 5">
 
 </details>
 
