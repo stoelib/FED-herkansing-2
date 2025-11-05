@@ -112,13 +112,17 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdown-schets.jpg" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown1-schets.jpg" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown2-schets.jpg" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown3-schets.jpg" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown4-schets.jpg" width="375px" alt="Breakdown schets 1">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
@@ -278,22 +282,16 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  - Kyra
+  heeey guys, beetje laat maar dit was nog van vorige keer wat ik wilde bespreken: de afbeeldingen positioneren op mijn home page en hoe ik dat in een grid kan doen. En hoe ik de animatie het best kan maken.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  En voor morgen wil ik graag weten hoe ik mijn search balk in mijn hamburger menu krijg en hoe ik onderin mijn pagina de cursor kan laten meebewegen en hoe ik als je over bepaalde knoppen hovered er een soort bolletje te zien is.
+ 
+  - Aya
+  hier wil ik het straks over hebben Of het toegestaan is om 2 images binnen 1 artickel te hebben, waarvan 1 als achtergrond img.2 images op de echte website met de juiste kleur downloaden en hoe ik de contrast van socialmedia iconen met css kan laten veranderen
+ 
+  wil de rest dat hier nog ff kort vertellen zodat iedereen het in zijn/haar readme kan verwerken 
 
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -307,19 +305,23 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screenshot.jpg" >
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Omdat ik vorig jaar al heel ver was gekomen en eigenlijk al heel veel kon en begreep kon ik me deze periode vooral gaan focussen op het verbeteren en afmaken van mijn website. Dit was een groot voordeel maar ergens ook een nadeel omdat ik een aantal opdrachten om deze reden heb overgeslagen in de les terwijl ik achteraf wel wat opversing van de materie kon gebruiken. Ondanks dat ben ik heel tevereden m et mijn eindresulktaat. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Een onderdeel waarop ik tenopzichten van vorig jaar enorm ben verbeterd is het positioneren. Zo gebruiken ik niet alleen absolute pistioneren maar maak ik ook veel meer gebruik van grid en flex. 
+
+  Daarnaast ben ik ook veel beter geworden in het leren begrijpen van mijn eigen code en het de-coden van mijn eigen geschreven code door gebruik te maken van de inspecteren functie in Chrome.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Zoals ik net al aangaf heb ik een aantal opdrachten overgeslagen waardoor het toepassen op mijn eigen website lastig werd. Een voorbeeld hiervan is bijvoorbeeld het hamburger menu. Deze was erg lastig. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Verder had ik ook moeite om mijn code van vorig jaar goed te begrijpen. Omdat ik mijn CSS code heel erg rommelig had geschreven was het heel moeilijk om hier weer goed in te komen en daarom koste het me heel veel tijd om dit weer op te ruimen. Toen ik dit eenmaal had opgeruimd ging het wel veel beter.
+
+  
 </details>
 
 
