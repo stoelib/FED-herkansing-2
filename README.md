@@ -112,11 +112,11 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdown-schets.jpg" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown1-schets.jpg" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown2-schets.jpg" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown3-schets.jpg" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown4-schets.jpg" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown-schets" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown1-schets" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown2-schets" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown3-schets" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown4-schets" width="375px" alt="Breakdown schets 1">
 
   ### dynamisch deel (bijv menu): 
   
@@ -305,7 +305,7 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screenshot.jpg" >
+  <img src="readme-images/screenshot" >
 
 
   ### Dit ging goed/Heb ik geleerd: 
