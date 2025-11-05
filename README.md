@@ -306,7 +306,7 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screenshot" >
+  <img src="readme-images/screenshot.png" >
 
 
   ### Dit ging goed/Heb ik geleerd: 
