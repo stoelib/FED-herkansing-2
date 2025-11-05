@@ -112,11 +112,11 @@ De animaties die gebruikt werden op de website zijn subtiel en te pauzeren.
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdown-schets" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown1-schets" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown2-schets" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown3-schets" width="375px" alt="Breakdown schets 1">
-  <img src="readme-images/Breakdown4-schets" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown-schets.png" width="375px" alt="Breakdown schets 1">
+  <img src="readme-images/Breakdown1-schets.png" width="375px" alt="Breakdown schets 2">
+  <img src="readme-images/Breakdown2-schets.png" width="375px" alt="Breakdown schets 3">
+  <img src="readme-images/Breakdown3-schets.png" width="375px" alt="Breakdown schets 4">
+  <img src="readme-images/Breakdown4-schets.png" width="375px" alt="Breakdown schets 5">
 
   ### dynamisch deel (bijv menu): 
   
